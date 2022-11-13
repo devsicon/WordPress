@@ -1,6 +1,6 @@
 <?php
-if ( ! function_exists( 'kumo_single_social' ) ) :
-function kumo_single_social() {
+if ( ! function_exists( 'theme_social_share_btn' ) ) :
+function theme_social_share_btn() {
 
     $dmsocialURL = urlencode(get_permalink());
 
